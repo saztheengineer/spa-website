@@ -7,7 +7,8 @@
 }   
 
 html, body{
-    background-color: #f8f6f3;
+    color: #2b392a;
+    background-color: #EEEEEE;
     width: 100%;
     height: 100%;
     overflow-x: hidden; 
@@ -19,7 +20,7 @@ html, body{
 nav{
     position: fixed;
     z-index: 1;
-    background-color: #f8f6f3;
+    background-color: #EEEEEE;
     padding: 20px;
     width: 100%;
     top: 0px;
@@ -55,6 +56,7 @@ nav{
     letter-spacing: 4px;
     font-size: 14px;
     text-transform: uppercase;
+    color: #2b392a;
 }
   
 .nav-button svg {
@@ -72,7 +74,7 @@ nav{
   
 .hover-underline-animation {
     position: relative;
-    color: black;
+    color: #2b392a;
     padding-bottom: 20px;
 }
   
@@ -84,7 +86,7 @@ nav{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: #2b392a;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -113,7 +115,7 @@ nav{
 
 /*limited edition offer*/
 .promo-banner{
-    background-color: #dbe6cd;
+    background-color: #B7B78A;
     padding: 60px;
     text-align: center;
 }
@@ -164,9 +166,9 @@ nav{
     width: 100%;
 }
 
-.mblock-title span{
+.mblock-title h3{
     padding: 15px;
-    
+    text-transform: uppercase;
 }
 
 
@@ -239,7 +241,7 @@ nav{
 }
   
 .button:hover {
-    background-color: #f9fafb;
+    background-color: #DDDDDD;
 }
   
 .button:focus {
@@ -257,6 +259,8 @@ nav{
 /*footer*/
 footer {
     padding: 50px;
+    background-color: #658864;
+    color: #EEEEEE;
 }
 
 /* add in for smaller screens
