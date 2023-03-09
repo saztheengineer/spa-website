@@ -1,3 +1,11 @@
+/* TO DO 
+    - fix nav
+    - fix send button
+    - add in treatments menu (HTML)
+*/
+
+
+
 /*website styling*/
 *{
     box-sizing: border-box;
@@ -18,6 +26,7 @@ html, body{
 
 /*navigation bar*/
 nav{
+    display: inline;
     position: fixed;
     z-index: 1;
     background-color: #EEEEEE;
@@ -30,8 +39,14 @@ nav{
 
 /*left side navigation*/
 .main-nav{
-    float: left;
     list-style: none;
+}
+
+
+
+/*cloud9*/
+.cloud9{
+    text-align: center;
 }
 
 
@@ -144,7 +159,6 @@ nav{
 }
 
 
-
 /*wellness retreats banner*/
 .middle-block{
     overflow: hidden;
@@ -191,6 +205,7 @@ nav{
 
 /*email box*/
 .input {
+    color: #2b392a;
     font-size: 1em;
     width: 100%;
     max-width: 220px;
@@ -213,7 +228,7 @@ nav{
 }
   
 .input:focus {
-    border: 2px solid grey;
+    border: 2px solid #658864;
 }
 
 
@@ -254,11 +269,14 @@ nav{
     box-shadow: none;
 }
 
+.send-icon{
+    outline: none;
+}
 
 
 /*footer*/
 footer {
-    padding: 50px;
+    padding: 100px;
     background-color: #658864;
     color: #EEEEEE;
 }
