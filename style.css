@@ -38,7 +38,7 @@ nav{
 
 
 /*left side navigation*/
-.main-nav{
+.left-nav{
     list-style: none;
 }
 
@@ -46,17 +46,19 @@ nav{
 
 /*cloud9*/
 .cloud9{
-    text-align: center;
+    height: auto;
+    width: 0;
+    background-color: aquamarine;
 }
 
 .cloud9 a{
     color: #2b392a;
     text-decoration: none;
+    text-align: center;
+    width: 50%;
 }
 
-.cloud9 a:hover{
 
-}
 
 /*right side navigation*/
 .right-nav{
@@ -71,6 +73,7 @@ nav{
     border: none;
     background: none;
     font-weight: 100;
+    cursor: pointer;
 }
   
 .nav-button span {
@@ -81,20 +84,20 @@ nav{
     color: #2b392a;
 }
   
-.nav-button svg {
+.nav-button{
     transform: translateX(-8px);
     transition: all 0.3s ease;
 }
   
-.nav-button:hover svg {
+.nav-button:hover{
     transform: translateX(0);
 }
   
-.nav-button:active svg {
+.nav-button:active{
     transform: scale(0.9);
 }
   
-.hover-underline-animation {
+.hover-underline-animation{
     position: relative;
     color: #2b392a;
     padding-bottom: 20px;
