@@ -1,7 +1,7 @@
 /* TO DO 
     - fix nav and add :hover 
     - fix send button
-    - add in treatments menu (HTML)
+    - treatments menu
 */
 
 
@@ -26,7 +26,7 @@ html, body{
 
 /*navigation bar*/
 nav{
-    display: inline;
+    display: inline-block;
     position: fixed;
     z-index: 1;
     background-color: #EEEEEE;
@@ -46,16 +46,14 @@ nav{
 
 /*cloud9*/
 .cloud9{
-    height: auto;
-    width: 0;
-    background-color: aquamarine;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-left: 25%;
 }
 
-.cloud9 a{
-    color: #2b392a;
-    text-decoration: none;
-    text-align: center;
-    width: 50%;
+.cloud9 h1{
+    font-size: 45px;
 }
 
 
@@ -152,19 +150,19 @@ nav{
 
 
 /*info section for facials and treatments*/
-.facial-section{
+.spa-section{
     padding: 300px 0 300px 0;
     display: inline-block;
 }
 
-.facial img{
+.spa img{
     padding: 50px;
     float: left;
     height: 550px;
     width: auto;
 }
 
-.facial-info p{
+.spa-info p{
     padding: 200px;
 }
 
@@ -174,11 +172,11 @@ nav{
     overflow: hidden;
     position: relative;
     text-align: center;
-    width: 100%;
 }
 
 .mblock-image{
     filter: blur(3px);
+    width: 100%;
 }
 
 .mblock-title{
@@ -195,6 +193,28 @@ nav{
     text-transform: uppercase;
 }
 
+
+
+/*treatment menu*/
+.treatment-menu{
+    padding-top: 300px;
+    text-align: center;
+    background-color: #DDDDDD;
+}
+
+.treatments{
+    display: inline-block;
+}
+
+.treatments img{
+    height: 300px;
+    width: auto;
+}
+
+.treatments p{
+    width: 350px;
+    text-align: center;
+}
 
 /*sign up section*/
 .sign-up{
